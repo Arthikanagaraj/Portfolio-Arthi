@@ -401,26 +401,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-/* Mobile (small screens) */
-@media only screen and (max-width: 576px) {
-  .med {
-      text-align: center;
-  }
-}
-
-/* Tablet (medium screens) */
-@media only screen and (min-width: 577px) and (max-width: 768px) {
-  .med {
-      text-align: left;
-  }
-}
-
-/* Laptop and PC (large screens) */
-@media only screen and (min-width: 769px) {
-  .med {
-      text-align: justify;
-  }
-}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
